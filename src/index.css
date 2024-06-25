@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsla(0, 0%, 0%, 0.95);
+}
+
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    padding: 7px 0;
+}
+
+.header--logo{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.header-title{
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Header */
+
+/* Card */
+
+.card--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.card--pic{
+    width: 280px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.card--location-container{
+    display: flex;
+    align-items: center;
+}
+
+.card--loc-logo{
+    width: 17px;
+    margin-right: 10px;
+}
+
+.card--location{
+    font-size: 1.4em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-right: 25px;
+
+}
+
+.card--map-link{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.6);
+    transition: color 100ms ease;
+}
+.card--map-link:hover{
+    color: hsla(0, 0%, 0%, 0.9);
+}
+
+.card--title{
+    font-size: 4em;
+    font-weight: bold;
+    margin: 5px 0 35px 0;
+}
+
+.card--date{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.card--desc{
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Card */
